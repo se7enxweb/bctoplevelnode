@@ -1,0 +1,30 @@
+{
+    "name": "se7enxweb/bctoplevelnode",
+    "description": "Creates Skeleton Content Tree Node In Root Of Content Tree (Above default content root node) right next to the other top level nodes like media, user, design, setup. Easy to use. Use it once and experence the true freedom of eZ Content Trees!",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+	{
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+	    "role": "Developer"
+	},
+        {
+            "name": "eZ Publish Community",
+            "homepage": "https://github.com/se7enxweb/bctoplevelnode/contributors",
+    	    "role": "Contributors"
+        },
+        {
+            "name": "Brookins Consulting",
+            "role": "Author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bctoplevelnode"
+    }
+}
